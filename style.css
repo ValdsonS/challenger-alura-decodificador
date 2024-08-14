@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f5fc;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+#box-transform {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 400px;
+  height: 830px;
+  border: 0px, solid;
+  border-radius: 20px;
+  box-shadow: 0px 24px 32px -8px #00000014;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 32px;
+}
+
+.img {
+  background-color: #ffffff;
+}
+
+.aviso-box {
+  color: #343a40;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+
+.aviso-box2 {
+  color: #495057;
+  font-size: 16px;
+  line-height: 24px;
+  width: 300px;
+}
+
+.texto-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#textoarea {
+  height: 288px;
+  width: 680px;
+  font-size: 32px;
+  background-color: #f3f5fc;
+  color: #0a3871;
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.botoes {
+  display: flex;
+  gap: 24px;
+}
+
+.botaoc {
+  width: 328px;
+  height: 67px;
+  border-radius: 30px;
+  border: none;
+  color: #ffffff;
+  background-color: #0a3871;
+}
+
+.botaod {
+  width: 328px;
+  height: 67px;
+  border-radius: 30px;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  background-color: #f3f5fc;
+}
+
+.aviso-conteudo {
+  font-size: 12px;
+  line-height: 18px;
+  color: #495057;
+  display: flex;
+  align-items: center;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  height: 820px;
+}
+
+.textos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 308px;
+}
+
+.btn-copiar {
+  width: 328px;
+  height: 67px;
+  border-radius: 30px;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  background-color: #fff;
+}
+
+.logo {
+  height: 48px;
+  width: 120px;
+}
+
+#textoSaida {
+  height: 700px;
+  width: 336px;
+  font-size: 24px;
+  color: #495057;
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+}
+
+.aviso {
+  display: flex;
+  gap: 5px;
+}

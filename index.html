@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Decodificador de texto</title>
+  </head>
+  <body>
+    <main class="conteudo">
+      <section class="textos">
+        <img class="logo" src="/img/logo.png" alt="alura imagem" />
+        <div class="textos-container">
+          <textarea
+            id="textoarea"
+            name="textoarea"
+            rows="5"
+            cols="50"
+            placeholder="Digite seu Texto aqui"
+          ></textarea>
+          <div class="btn-container">
+            <div class="aviso">
+              <img src="/img/icon.svg" class="icon" />
+              <p class="aviso-conteudo">
+                Apenas letras minusculas e sem acentos
+              </p>
+            </div>
+            <div class="botoes">
+              <button onclick="msgCriptografar()" class="botaoc">
+                Criptografar
+              </button>
+              <button onclick="msgDescriptografar()" class="botaod">
+                Descriptografar
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="box-transform">
+        <img
+          src="/img/High quality products 1 1.svg"
+          class="img"
+          alt="imagem-procurar"
+        />
+        <div class="texto-box">
+          <p class="aviso-box">Nenhuma mensagem encontrada</p>
+          <p class="aviso-box2">
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
